@@ -128,3 +128,12 @@ MEDIA_ROOT = 'media'
 
 EMAIL_EXPIRATION_TIME = 2
 PHONE_EXPIRATION_TIME = 3
+
+
+
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = 'smtp.gmail.com' 
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
+EMAIL_HOST_USER = 'abduazimqudratullaev@gmail.com' 
+EMAIL_HOST_PASSWORD = 'your-app-password' 
